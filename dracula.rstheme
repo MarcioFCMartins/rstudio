@@ -3109,11 +3109,11 @@ input#rstudio_command_palette_search {
 }
 
 /* Keyboard shortcuts menu ------------------------------------------------ */
-.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child {
+.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child {
 	border-left: none
 }
 
-.GND-IWGDDY, .GNVWDDMDEY {
+.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY {
 	border-bottom: 1px #282a36 !important
 }
 
@@ -3123,7 +3123,7 @@ input#rstudio_command_palette_search {
 }
 	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY {
 	background-color: #44475a !important;
 }
 
