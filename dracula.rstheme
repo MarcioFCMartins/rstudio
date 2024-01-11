@@ -518,11 +518,6 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   border: 2px solid #303140
 }
 
-/* fix overly zealous css rules */
-.gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
-  color: #333333;
-}
-
 /* job progress bar */
 .rstheme_toolbarWrapper [role="progressbar"] > div, .windowframe [role="progressbar"] > div {
   background-color: #BD93F9;
@@ -3026,7 +3021,7 @@ input#rstudio_command_palette_search {
 
 
 .gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
-    color: #f8f8f2;
+    color: #f8f8f2 !important;
 }
 
 /* Open file selector */
@@ -3092,8 +3087,8 @@ input#rstudio_command_palette_search {
 .GEL-OVUBL2, .GND-IWGDH3 {
 	background: #252631 !important;
 }
-
-.GNVWDDMDI3 {
+#
+.GNVWDDMDI3, .GNVWDDMDJ3, .GNVWDDMDG3, .GND-IWGDF3 {
   background: none;
 }
 
@@ -3101,6 +3096,7 @@ input#rstudio_command_palette_search {
 .GEL-OVUBJ2, .GEL-OVUBJ2:focus, .gwt-Label.GND-IWGDF3.GND-IWGDFR {               
   color: #303140 ! important;
 }
+
 
 .GNVWDDMDG3,.GND-IWGDF3 {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAA8CAYAAACXUQOeAAAC5ElEQVR4Xu3Y204TURiGYa5AL8AzQjgxwRC9E70QDxoSb0tQhAQJUKYtbhLc0IoeUcCaCN3RaWlTRv5pF+IC7GzWKmTm/ZL3CJhOsp4Mk05MjH8eJb47N/0GKbndmfk39HBm9mmx9G2l3+97lJx6vV631miUt7c/v1RnPTn5+L5mYOz7i65YXOl0Tj235XonzRYlpNaJ67lu2zs97XrdbvdMnfn09KMHmoWxDXQpS85Xzlmd/dTU1D3NhPWBLqXJE7DT7tzKOx/oUp6c9znAvrIwzOpAR35uq+1tbX2YVyY0J0Z3CV0JdClPzr5yWNlXLjQrxnYFXQt0qU7e9WrVek/Z0LwYGejo2hr1prV3PNDRjdmCBzr6bzbg+RebmX3yDHR0U6bhgY4CZRIe6ChwpuCBjkJlAh7oKHRx4YGOIhUH3gW6r8XSW9BRmKLCAx3FKgo80FHswsIDHRkpDDzQkbGCwrtAVyztroKO4hYEHujIeKPgXaDb+bKz2nbboCMjjYIn83/4/t3H5epxzf8D/SJEYQsCT+b/Qj6/tXz0+xh8FLug8GQDfDnwUfzCwJOBj4wUFp4MfBS7KPBkA3xOYQl8FKWo8GQDfPnCG/BR2OLAk4GPIhUXngx8FDoT8GT+BRwnDz4KlCl4siG+wiL4aFQm4cnAR4EyDU8GPhqZDXiyIb7ca/DRddmCJwMf3ZhNeLIBvqwDPvon2/Bk4KMr1WsN6/Bk/gdsZnOvwEfNxol3fFRrKxeaFeMDH/nJ2ZfLB3vKhObEyvwPymadBfClt1q1Ll+3LSgPmhFrA1+Kk/M+P/d+Zu7Fc2VB82F1Q3yb4EtRg3e7qlfIFRaVgWFjHfhS1PBJ5xV3Sp/U2Wsexjr/BjY2NufBl7zkCSdfm8jZViq/zhwnv6TOXHNwK/NvZH19Y/7nYcWj5LRfPuh83/2xt7a2vpDJzN3KO92oXf5/T8nuzk2/QUpejDHGGGOMMcZYQvcHOJ5hSwO5DHUAAAAASUVORK5CYII=") -0px -0px  no-repeat !important;
