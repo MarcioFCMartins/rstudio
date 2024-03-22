@@ -3077,27 +3077,23 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
-/* New rmarkdown document */
-	/* Text describing each time of output format */
-.GEL-OVUBEAB {
+/* New rmarkdown document ---------------------------------- */
+	/* Text describing each type of output format */
+.GEL-OVUBEAB, .GNVWDDMDDBB {
 	color: #f8f8f2
 }
 
-/* New project window */
+/* New project window -------------------------------------- */ 
 .GEL-OVUBL2, .GND-IWGDH3 {
 	background: #252631 !important;
 }
-#
-.GNVWDDMDI3, .GNVWDDMDJ3, .GNVWDDMDG3, .GND-IWGDF3 {
+
+.GNVWDDMDI3, .GNVWDDMDJ3, .GNVWDDMDG3, .GND-IWGDF3, .GNVWDDMDK3 {
   background: none;
+  color: #f8f8f2
 }
 
-	/* Back button - the background image is white, so set dark text */
-.GEL-OVUBJ2, .GEL-OVUBJ2:focus, .gwt-Label.GND-IWGDF3.GND-IWGDFR {               
-  color: #303140 ! important;
-}
-
-
+/* Back button - let white button show */
 .GNVWDDMDG3,.GND-IWGDF3 {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAA8CAYAAACXUQOeAAAC5ElEQVR4Xu3Y204TURiGYa5AL8AzQjgxwRC9E70QDxoSb0tQhAQJUKYtbhLc0IoeUcCaCN3RaWlTRv5pF+IC7GzWKmTm/ZL3CJhOsp4Mk05MjH8eJb47N/0GKbndmfk39HBm9mmx9G2l3+97lJx6vV631miUt7c/v1RnPTn5+L5mYOz7i65YXOl0Tj235XonzRYlpNaJ67lu2zs97XrdbvdMnfn09KMHmoWxDXQpS85Xzlmd/dTU1D3NhPWBLqXJE7DT7tzKOx/oUp6c9znAvrIwzOpAR35uq+1tbX2YVyY0J0Z3CV0JdClPzr5yWNlXLjQrxnYFXQt0qU7e9WrVek/Z0LwYGejo2hr1prV3PNDRjdmCBzr6bzbg+RebmX3yDHR0U6bhgY4CZRIe6ChwpuCBjkJlAh7oKHRx4YGOIhUH3gW6r8XSW9BRmKLCAx3FKgo80FHswsIDHRkpDDzQkbGCwrtAVyztroKO4hYEHujIeKPgXaDb+bKz2nbboCMjjYIn83/4/t3H5epxzf8D/SJEYQsCT+b/Qj6/tXz0+xh8FLug8GQDfDnwUfzCwJOBj4wUFp4MfBS7KPBkA3xOYQl8FKWo8GQDfPnCG/BR2OLAk4GPIhUXngx8FDoT8GT+BRwnDz4KlCl4siG+wiL4aFQm4cnAR4EyDU8GPhqZDXiyIb7ca/DRddmCJwMf3ZhNeLIBvqwDPvon2/Bk4KMr1WsN6/Bk/gdsZnOvwEfNxol3fFRrKxeaFeMDH/nJ2ZfLB3vKhObEyvwPymadBfClt1q1Ll+3LSgPmhFrA1+Kk/M+P/d+Zu7Fc2VB82F1Q3yb4EtRg3e7qlfIFRaVgWFjHfhS1PBJ5xV3Sp/U2Wsexjr/BjY2NufBl7zkCSdfm8jZViq/zhwnv6TOXHNwK/NvZH19Y/7nYcWj5LRfPuh83/2xt7a2vpDJzN3KO92oXf5/T8nuzk2/QUpejDHGGGOMMcZYQvcHOJ5hSwO5DHUAAAAASUVORK5CYII=") -0px -0px  no-repeat !important;
     background-size: 79px 30px !important;
@@ -3105,25 +3101,25 @@ input#rstudio_command_palette_search {
 }
 
 /* Keyboard shortcuts menu ------------------------------------------------ */
-.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child {
+/* Remove left border for table */ 
+.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child, .GNVWDDMDGY:first-child {
 	border-left: none
 }
 
-.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY {
+.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDGY {
 	border-bottom: 1px #282a36 !important
 }
 
-	/* Shortcut conflict warning */
-.GND-IWGDBYm, .GND-IWGDBY, .GNVWDDMDCY {
-	background-color: #ff5555 !important
-}
-	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY {
 	background-color: #44475a !important;
+  border-bottom: 1px #282a36 !important
 }
 
-
+	/* Shortcut conflict warning */
+.GND-IWGDBYm, .GND-IWGDBY, .GNVWDDMDCY, .GNVWDDMDEY {
+  background-color: #ff5555 !important
+}
 
 /* Package updater ----------------------------------------------- */
 /* Header */
