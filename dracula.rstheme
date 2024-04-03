@@ -3105,19 +3105,20 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Keyboard shortcuts menu ------------------------------------------------ */
-/* Remove left border for table */ 
+/* Remove left border */ 
 .GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child, .GNVWDDMDGY:first-child {
-	border-left: none
+	border-left: none;
 }
 
-.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDGY {
-	border-bottom: 1px #282a36 !important
+.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDGY, .GNVWDDMDHY, .GNVWDDMDG- {
+	border-bottom: 1px solid #303140 !important;
+  border-color: #303140;
 }
 
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDFY td, .GNVWDDMDA0 {
 	background-color: #44475a !important;
-  border-bottom: 1px #282a36 !important
+  border-bottom: 1px #282a36 !important;
 }
 
 	/* Shortcut conflict warning */
