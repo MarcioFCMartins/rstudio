@@ -3225,7 +3225,8 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Import Excel data window ----------------------------------------- */
-.GEL-OVUBOVD {
+/* Panel for Import options and Code preview */ 
+.GEL-OVUBOVD, .GNVWDDMDEYD {
     border: 1px solid #252631;
     background-color: #252631;
     padding-top: 12px;
@@ -3291,55 +3292,62 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 
+/* Import text data (readr) ---------------------------------------------------- */
+/* Dataframe preview and editor - unable to make it conform to color shceme, 
+so make text readable over white*/
+.GNVWDDMDBWD {
+    color: black
+}
+
+.GNVWDDMDHWD, .GNVWDDMDJUD {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  border: 1px solid #999;
+  background-color: #252631;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /*Import statistical data import options --------------------------------------- */
-.GEL-OVUBBUD {
-    border: 1px solid #999;
-    background-color: #252631;
-    padding-top: 12px;
-    padding-left: 16px;
-    padding-bottom: 3px;
-    padding-right: 6px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-grow: 1;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    margin-top: 3px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-.GEL-OVUBAVD {
-    border: 1px solid #999;
-    background-color: #252631;
-    padding-top: 12px;
-    padding-left: 16px;
-    padding-bottom: 3px;
-    padding-right: 6px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-grow: 1;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    margin-top: 3px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
 .GND-IWGDBWD {
 	background-color: #252631
 }
 
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
     color: #f8f8f2;
+}
+
+/* Panel for Import options and Code preview */ 
+.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD  {
+  border: 1px solid #999;
+  background-color: #252631;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 3px;
+  padding-right: 6px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* Insert citations - visual markdown editor -------------------------------- */
