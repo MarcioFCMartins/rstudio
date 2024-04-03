@@ -3128,7 +3128,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 
 /* Package updater ----------------------------------------------- */
 /* Header */
-.GNVWDDMDFJC {
+.GNVWDDMDFJC, .GNVWDDMDHJC {
   border-bottom: 1px solid #303140;
   border-right: 1px solid #303140;
   border-top: 1px solid #303140;
@@ -3144,13 +3144,13 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Rows of table showing package updates - darker rows*/
-.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC, .GNVWDDMDBKC {
 	background-color: #252631;
 	border: none !important;
 }
 
 /* Rows of table showing package updates - lighter rows*/
-.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC {
+.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC, .GNVWDDMDBJC {
 	background-color: #282a36;
 	border: none !important;
 }
@@ -3265,8 +3265,8 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 
-/*Import text data import options ------------------------------------------- */
-.GEL-OVUBBUD {
+/*Import text data (base) ------------------------------------------- */
+.GEL-OVUBBUD, .GNVWDDMDO5B, .GNVWDDMDDAC {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -3289,6 +3289,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 .GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD {
 	background-color: #252631;
 }
+
 
 /*Import statistical data import options --------------------------------------- */
 .GEL-OVUBBUD {
