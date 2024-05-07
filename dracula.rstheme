@@ -3025,7 +3025,7 @@ input#rstudio_command_palette_search {
 }
 
 /* Open file selector */
-.GND-IWGDAJ, .GND-IWGDDJ, .GNVWDDMDAJ, .GNVWDDMDDJ {
+.GND-IWGDAJ, .GND-IWGDDJ, .GNVWDDMDAJ, .GNVWDDMDDJ, .GNTYACMBAJ, .GNTYACMBDJ {
 	background-color: #252631;
 }
 
@@ -3088,41 +3088,51 @@ input#rstudio_command_palette_search {
 	background: #252631 !important;
 }
 
-.GNVWDDMDJ3, .GNVWDDMDK3 {
+  /* Remove the white image from the panel */ 
+.GNVWDDMDJ3, .GNVWDDMDK3, .GNTYACMBK3 {
   background: none;
   color: #f8f8f2
 }
 
 /* Back button - let white button show */
-.GNVWDDMDG3,.GND-IWGDF3, .GNVWDDMDI3 {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAA8CAYAAACXUQOeAAAC5ElEQVR4Xu3Y204TURiGYa5AL8AzQjgxwRC9E70QDxoSb0tQhAQJUKYtbhLc0IoeUcCaCN3RaWlTRv5pF+IC7GzWKmTm/ZL3CJhOsp4Mk05MjH8eJb47N/0GKbndmfk39HBm9mmx9G2l3+97lJx6vV631miUt7c/v1RnPTn5+L5mYOz7i65YXOl0Tj235XonzRYlpNaJ67lu2zs97XrdbvdMnfn09KMHmoWxDXQpS85Xzlmd/dTU1D3NhPWBLqXJE7DT7tzKOx/oUp6c9znAvrIwzOpAR35uq+1tbX2YVyY0J0Z3CV0JdClPzr5yWNlXLjQrxnYFXQt0qU7e9WrVek/Z0LwYGejo2hr1prV3PNDRjdmCBzr6bzbg+RebmX3yDHR0U6bhgY4CZRIe6ChwpuCBjkJlAh7oKHRx4YGOIhUH3gW6r8XSW9BRmKLCAx3FKgo80FHswsIDHRkpDDzQkbGCwrtAVyztroKO4hYEHujIeKPgXaDb+bKz2nbboCMjjYIn83/4/t3H5epxzf8D/SJEYQsCT+b/Qj6/tXz0+xh8FLug8GQDfDnwUfzCwJOBj4wUFp4MfBS7KPBkA3xOYQl8FKWo8GQDfPnCG/BR2OLAk4GPIhUXngx8FDoT8GT+BRwnDz4KlCl4siG+wiL4aFQm4cnAR4EyDU8GPhqZDXiyIb7ca/DRddmCJwMf3ZhNeLIBvqwDPvon2/Bk4KMr1WsN6/Bk/gdsZnOvwEfNxol3fFRrKxeaFeMDH/nJ2ZfLB3vKhObEyvwPymadBfClt1q1Ll+3LSgPmhFrA1+Kk/M+P/d+Zu7Fc2VB82F1Q3yb4EtRg3e7qlfIFRaVgWFjHfhS1PBJ5xV3Sp/U2Wsexjr/BjY2NufBl7zkCSdfm8jZViq/zhwnv6TOXHNwK/NvZH19Y/7nYcWj5LRfPuh83/2xt7a2vpDJzN3KO92oXf5/T8nuzk2/QUpejDHGGGOMMcZYQvcHOJ5hSwO5DHUAAAAASUVORK5CYII=") -0px -0px  no-repeat !important;
-    background-size: 79px 30px !important;
-    color: #303140 ! important;
+.GNVWDDMDG3, .GNVWDDMDG3:focus,
+.GNVWDDMDI3, .GNVWDDMDI3:focus, 
+.GNTYACMBI3, .GNTYACMBI3:focus {
+  height: 60px !important;
+  width: 158px !important;
+  overflow: hidden !important;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAA8CAYAAACXUQOeAAADS0lEQVR4Xu3dyU8TYRzGcby7X70YUiidLlKXxGhIOOjVGDHGv0I5NBjEv0oQLAkSukwXFwJqp6In2mJNhG50WtqUV37ilDgBnOWdFjvPk3yPcHk/mZb3wPT1YZgd5vV6L7hcvqtDHs8D1DsNurz3XS7PXafH43M4HGfV597VETq3zz8mpb8stFothnqnZrPZKJbLmZWVjy8np6aeOATB399/7ZzaQMfXRidJC/X6DpOrMtuuVFGPVN2WmSzX2M5OgzUajd1USgqOjI4+Hhy8ckltoWMDOntF50vnnM3lVm/cvP2oKx+9QGfP6AlYr9XZ8vLq7IAgDKtdWDqgs3d03nsAW8+ev3jasace0CFKrtZYMvl+mv7aVRvhvgN0aaCzeXT2+Y18lq5a1E64To2uCnS2jr7rFQulJt3zqa1wG9ChwyqXKowumdVeuAzo0FFZBg/o0HFZAo/Q+fzXHwIdOiru8IAOaYkrPKBDWuMGD+iQnrjAAzqkN9PwgA4ZyRQ8Bd1nKf0G6JCeDMMDOmQmQ/CADplNNzygQzzSBc/tdl8EOsQjzfAUdFJ6bRHokNk0wQM6xDst8E4RutSn1GJNrgEd4pIWeH1Dbt/Yu7cf5gtbxd8/oP4lCOlNE7zLw8PnCV88npzf/LkFfMh0muDR2vhiwIfMpxkejf7vBfAhHumCRwM+xCPd8GhtfGIiCHzISIbg0dr44onXwIf0ZhgeDfiQ0UzBowEfMpJpeDQFnyjGgQ9pigs8Gv3LqX18iTngQ/+KGzwa8CGtcYVHAz6kJe7waAf4YrPAhw7LEng04EPHZRk8WhtfRAQ+9FeWwqMBHzqsUrFsLTyagi8aib0CPlQpb7OtzWLNKQj31Fa4z+l0ngE+RNHZZzK59QGX947aiSVT8EUi4gzw2bdiocREMTHTkdcNKAM+e0fnvXfurcDE5HjHXrCi7ABfFPhs1P53uwJLxBJzHX+llDLgs1d/nnRMSqW79xI9ZQq+cDg6DXy9Fz3h6NqEzjaf/7ErivHgrZEuvzZUmSAIpwlfKBSe/r6RZ6h3ymZy9a9r39aXlkIzgcDE+Il5UbIywkef+XShiHonuqejK5MT+Wp4DMMwDMMwDMMwDMOw/3+/AJS33mUlRy4iAAAAAElFTkSuQmCC") -0px -0px  no-repeat !important;
+  border: none !important;
+  font-weight: bold;
+  padding-left: 26px !important;
+  padding-top: 6px !important;
+  background-size: 79px 30px !important;    
 }
 /* Make text in back button dark */
+body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNTYACMBDY > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td > div > div:nth-child(3) > div,
 body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td > div > div:nth-child(3) > div {
   color: #303140 ! important;
 }
 
 /* Keyboard shortcuts menu ------------------------------------------------ */
 /* Remove left border */ 
-.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child, .GNVWDDMDGY:first-child {
+.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child, .GNVWDDMDFY:first-child, .GNVWDDMDGY:first-child, .GNTYACMBGY:first-child {
 	border-left: none;
 }
 
-.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDGY, .GNVWDDMDHY, .GNVWDDMDG- {
+.GND-IWGDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDGY, .GNVWDDMDHY, .GNVWDDMDG-, .GNTYACMBGY {
 	border-bottom: 1px solid #303140 !important;
   border-color: #303140;
 }
 
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDFY td, .GNVWDDMDA0 {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDFY td, .GNVWDDMDA0, .GNTYACMBFY {
 	background-color: #44475a !important;
   border-bottom: 1px #282a36 !important;
 }
 
 	/* Shortcut conflict warning */
-.GND-IWGDBYm, .GND-IWGDBY, .GNVWDDMDCY, .GNVWDDMDEY {
+.GND-IWGDBYm, .GND-IWGDBY, .GNVWDDMDCY, .GNVWDDMDEY, .GNTYACMBEY {
   background-color: #ff5555 !important
 }
 
@@ -3161,7 +3171,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 	/* Background color below table in package updates */
-.GEL-OVUBBHC, .GND-IWGDEIC, .GNVWDDMDNIC {
+.GEL-OVUBBHC, .GND-IWGDEIC, .GNVWDDMDNIC, .GNTYACMBBJC {
 	background: #252631;
 }
 
@@ -3225,8 +3235,13 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Import Excel data window ----------------------------------------- */
+/* Data preview  unable to make it conform to color scheme, so make text readable over white*/
+.GNVWDDMDBWD {
+  color: black
+}
+
 /* Panel for Import options and Code preview */ 
-.GEL-OVUBOVD, .GNVWDDMDEYD {
+.GEL-OVUBOVD, .GNVWDDMDEYD, .GNTYACMBGYD {
     border: 1px solid #252631;
     background-color: #252631;
     padding-top: 12px;
@@ -3293,13 +3308,11 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 
 
 /* Import text data (readr) ---------------------------------------------------- */
-/* Dataframe preview and editor - unable to make it conform to color shceme, 
-so make text readable over white*/
-.GNVWDDMDBWD {
-    color: black
-}
+/* Data preview will be white, with black text (see excel import section for style) */
 
-.GNVWDDMDHWD, .GNVWDDMDJUD {
+
+/* Import options */
+.GNVWDDMDHWD, .GNVWDDMDJUD, .GNTYACMBJWD {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -3319,6 +3332,10 @@ so make text readable over white*/
   margin-left: 5px;
 }
 
+/* Code preview */
+.GNTYACMBLUD {
+  background-color: #252631
+}
 /*Import statistical data import options --------------------------------------- */
 .GND-IWGDBWD {
 	background-color: #252631
@@ -3329,7 +3346,7 @@ so make text readable over white*/
 }
 
 /* Panel for Import options and Code preview */ 
-.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD  {
+.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD, .GNTYACMBIXD  {
   border: 1px solid #999;
   background-color: #252631;
   padding-top: 12px;
