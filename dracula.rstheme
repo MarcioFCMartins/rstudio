@@ -3138,7 +3138,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 
 /* Package updater ----------------------------------------------- */
 /* Header */
-.GNVWDDMDFJC, .GNVWDDMDHJC, .GNTYACMBJJC {
+.GNVWDDMDFJC, .GNVWDDMDHJC, .GNTYACMBJJC, .GNTYACMBLJC {
   border-bottom: 1px solid #303140;
   border-right: 1px solid #303140;
   border-top: 1px solid #303140;
@@ -3154,13 +3154,13 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Rows of table showing package updates - darker rows*/
-.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC, .GNVWDDMDBKC, .GNTYACMBDKC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC, .GNVWDDMDBKC, .GNTYACMBDKC, .GNTYACMBFKC {
 	background-color: #252631;
 	border: none !important;
 }
 
 /* Rows of table showing package updates - lighter rows*/
-.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC, .GNVWDDMDBJC, .GNTYACMBDJC {
+.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC, .GNVWDDMDBJC, .GNTYACMBDJC, .GNTYACMBFJC {
 	background-color: #282a36;
 	border: none !important;
 }
@@ -3263,7 +3263,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
     margin-left: 5px;
 }
 
-.GONVA-ECFWD, .GND-IWGDPWD {
+.GONVA-ECFWD, .GND-IWGDPWD, .GNTYACMBHYD {
     background-color: #252631
 }
 
@@ -3303,7 +3303,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
     margin-left: 5px;
 }
 
-.GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD {
+.GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD, .GNTYACMBCAC, .GNTYACMBHAC {
 	background-color: #252631;
 }
 
@@ -3334,11 +3334,11 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Code preview */
-.GNTYACMBLUD {
+.GNTYACMBLUD, .GNTYACMBKWD, .GNTYACMBMUD, {
   background-color: #252631
 }
 /*Import statistical data import options --------------------------------------- */
-.GND-IWGDBWD {
+.GND-IWGDBWD, .GNTYACMBMUD {
 	background-color: #252631
 }
 
@@ -3347,8 +3347,8 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Panel for Import options and Code preview */ 
-.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD, .GNTYACMBIXD  {
-  border: 1px solid #999;
+.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD, .GNTYACMBIXD, .GNTYACMBJXD  {
+  border: 1px solid #303140;
   background-color: #252631;
   padding-top: 12px;
   padding-left: 16px;
