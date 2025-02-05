@@ -2,8 +2,8 @@
 /* rs-theme-is-dark: TRUE */
 
 /* Application background: #191a21 */
-/* Panes background. Light rows in tables: #282a36 */
-/* Active tabs, menus and active line. Dark rows in tables: #252631 */
+/* Panes background. Light rows (odd number) in tables: #282a36 */
+/* Active tabs, menus and active line. Dark rows (even number) in tables: #252631 */
 /* Pane headers and inactive tabs: #20222c */
 /* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
@@ -3126,7 +3126,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDFY td, .GNVWDDMDA0, .GNTYACMBFY {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY, .GNVWDDMDEY, .GNVWDDMDFY, .GNVWDDMDFY td, .GNVWDDMDA0, .GNTYACMBFY, .GNTYACMBA0 {
 	background-color: #44475a !important;
   border-bottom: 1px #282a36 !important;
 }
@@ -3192,21 +3192,10 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
   cursor: default;
 }
 
-/* Dark rows */
-.GNVWDDMDHQB, .GND-IWGDHPB > .GND-IWGDGPB, .GNTYACMBJQB {
-  background-color: #252631;
-  border-bottom: none
-}
-
-/* Light rows */
-.GNVWDDMDIPB, .GND-IWGDGQB > .GND-IWGDGPB, .GNTYACMBKPB {
+/* Rows */
+.GNVWDDMDIPB, .GNTYACMBKPB, .GNTYACMBLPB, .GNVWDDMDHQB, .GNTYACMBJQB, .GNTYACMBKQB {
   background-color: #282a36;
   border-bottom: none
-}
-
-/* Individual cells -- used to remove borders */
-.GNVWDDMDHPB, .GNTYACMBJPB {
-  border-bottom: none;
 }
 
 /* Quit R - Unsaved files warning window --------------------------------------- */
@@ -3242,25 +3231,8 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Panel for Import options and Code preview */ 
-.GEL-OVUBOVD, .GNVWDDMDEYD, .GNTYACMBGYD {
-    border: 1px solid #252631;
+.GEL-OVUBOVD, .GNVWDDMDEYD, .GNTYACMBGYD, .GNTYACMBIYD {
     background-color: #252631;
-    padding-top: 12px;
-    padding-left: 16px;
-    padding-bottom: 3px;
-    padding-right: 6px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-grow: 1;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    margin-top: 3px;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 .GONVA-ECFWD, .GND-IWGDPWD, .GNTYACMBHYD {
@@ -3303,15 +3275,13 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
     margin-left: 5px;
 }
 
-.GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD, .GNTYACMBCAC, .GNTYACMBHAC {
+.GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD, .GNTYACMBCAC, .GNTYACMBHAC, .GNTYACMBLWD {
 	background-color: #252631;
 }
 
 
 /* Import text data (readr) ---------------------------------------------------- */
 /* Data preview will be white, with black text (see excel import section for style) */
-
-
 /* Import options */
 .GNVWDDMDHWD, .GNVWDDMDJUD, .GNTYACMBJWD {
   display: -ms-flexbox;
@@ -3334,7 +3304,7 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Code preview */
-.GNTYACMBLUD, .GNTYACMBKWD, .GNTYACMBMUD, {
+.GNTYACMBLUD, .GNTYACMBKWD, .GNTYACMBMUD, .GNTYACMBDAC, .GNTYACMBIAC, .GNTYACMBNUD {
   background-color: #252631
 }
 /*Import statistical data import options --------------------------------------- */
@@ -3347,25 +3317,8 @@ body > div.gwt-DialogBox.gwt-DialogBox-ModalDialog.GNVWDDMDDY > div > table > tb
 }
 
 /* Panel for Import options and Code preview */ 
-.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD, .GNTYACMBIXD, .GNTYACMBJXD  {
-  border: 1px solid #303140;
+.GEL-OVUBBUD, .GNVWDDMDGXD, .GEL-OVUBAVD, .GNTYACMBIXD, .GNTYACMBJXD, .GNTYACMBKXD  {
   background-color: #252631;
-  padding-top: 12px;
-  padding-left: 16px;
-  padding-bottom: 3px;
-  padding-right: 6px;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-grow: 1;
-  -webkit-flex-grow: 1;
-  flex-grow: 1;
-  margin-top: 3px;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 /* Insert citations - visual markdown editor -------------------------------- */
