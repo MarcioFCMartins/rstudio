@@ -23,6 +23,7 @@ rsthemes::rstheme(
     ui_foreground = "$white",
     ui_selection  = "$lines_select",
     ui_console_selection  = "$lines_select",
+    #ui_rstudio_background = "$background_darker",
     ui_rstudio_border = "$lines_select",
     ui_rstudio_tabs_inactive_background = "$background_dark",
     ui_rstudio_tabs_inactive_foreground = "transparentize($white, 0.5)",
